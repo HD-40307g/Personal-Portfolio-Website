@@ -1,5 +1,175 @@
+/*Universal Style*/
 html {
-    background-color: beige;
-    font-size: 18px;
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5dc;
+    font-size: 2px;
+    color: #323232;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    width: auto;
+    height: 800px;
+}
+
+h1 {
+    font-size: 18rem;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    font-family: "Cinzel", serif;
+    text-align: left;
+    font-weight: normal;
+    background-color: #323232;
+    color: #f5f5dc;
+    width: 700px;
+    height: auto;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+span {
+    font-weight: bold;
+}
+
+h2 {
+    width: 50%;
+    height: auto;
+    font-size: 10rem;
+    position: relative;
+    top: 20%;
+    left: 45%;
+    text-align: left;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: normal;
+    background-color: #323232;
+    color: #f5f5dc;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+    font-size: 14rem;
+    font-family: "Cinzel", serif;
+}
+
+
+p {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 12rem;
+}
+
+a {
+    color: #323232;
+    opacity: 0.50;
+    font-size: 10rem;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.project-picture {
+    width: 250rem;
+    height: 300rem;
+    display: block;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    transform: rotate(10deg);
+}
+
+/*1st Project*/
+
+#project-1 {
+    width: 100%;
+    height: 800px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-direction: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*2nd Project*/
+
+#project-2 {
+    width: 100%;
+    height: 800px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-direction: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*3rd Project*/
+
+#project-3 {
+    width: 100%;
+    height: 800px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-direction: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Contact Section*/
+
+.contact {
+    width: 100%;
+    height: 800px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skills-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.icon {
+    width: 50rem;
+    height: 50rem;
+    overflow: hidden;
+    margin: 1rem 5rem;
+}
+
+.icon-link {
+    opacity: 1;
+}
+
+.icon-link:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 20px;
+}
+
+footer p {
+    font-size: 8rem;
 }
