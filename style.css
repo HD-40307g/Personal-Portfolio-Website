@@ -75,6 +75,10 @@ a:hover {
     opacity: 0.8;
 }
 
+a:focus {
+    opacity: 0.8;
+}
+
 .project-picture {
     width: 250rem;
     height: 300rem;
@@ -163,6 +167,10 @@ a:hover {
     opacity: 0.8;
 }
 
+.icon-link:focus {
+    opacity: 0.8;
+}
+
 /* Footer */
 
 footer {
@@ -172,4 +180,114 @@ footer {
 
 footer p {
     font-size: 8rem;
+}
+
+/*Responsive Design for 768px*/
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1 {
+        font-size: 15rem;
+        text-align: center;
+        width: 500px;
+        height: auto;
+        position: static;
+    }
+
+    h2 {
+        font-size: 8rem;
+        text-align: center;
+        position: static;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 25px 10px;
+        height: fit-content;
+    }
+
+    .project-picture {
+        transform: none;
+    }
+}
+
+/*Responsive Design for 480px*/
+
+@media only screen and (max-width: 480px) {
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1 {
+        font-size: 12rem;
+        text-align: center;
+        width: 400px;
+        height: auto;
+        position: static;
+    }
+
+    h2 {
+        font-size: 8rem;
+        text-align: center;
+        position: static;
+        width: 400px;
+        height: auto;
+    }
+
+    h3 {
+        font-size: 12rem;
+    }
+
+    p {
+        font-size: 10rem;
+    }
+
+    a {
+        font-size: 10rem;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    .project-picture {
+        transform: none;
+        width: 300px;
+        height: auto;
+        margin: 5px 10px;
+    }
+
+    #project-1 {
+        height: auto;
+    }
+
+    #project-2 {
+        height: auto;
+    }
+
+    #project-3 {
+        height: auto;
+    }
 }

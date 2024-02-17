@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Get In Touch!</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Get In Touch!</h1>
+        <form method="post" action="http://server1" name="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" minlength="2" autofocus spellcheck="true" required>
+            <br>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" minlength="6" autofocus required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" cols="50" minlength="20" placeholder="How can I help you?" autofocus required></textarea>
+            <br>
+            <input type="submit" id="submit" name="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
